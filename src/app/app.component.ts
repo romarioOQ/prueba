@@ -20,8 +20,10 @@ export class AppComponent {
   
   public exists: Boolean;
   public arreglo: Usuario[];
+  public color: String;
 
   constructor(){
+    this.color = "black"
     this.arreglo = new Array<Usuario>(); 
     this.exists = true;
     this.mapellido = "";
